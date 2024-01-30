@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EEEDEB;
+
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 10px;
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+    color: #3C3633;
+}
+.product {
+    width: calc( (100% - 90px) / 3);
+    height: 450px;
+    background-color: #3C3633;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    gap: 10px;
+    box-shadow: 5px 5px 8px 5px #E0CCBE;
+}
+img {
+    width: 80%;
+    border: 1px rgb(255, 255, 255) dotted;
+    border-radius: 20px;
+    height: 50%;
+    overflow:fit-content;
+}
+.detials {
+display: flex;    
+width: 80%;
+height: 45%;
+flex-direction: column;
+justify-content: space-between !important;
+color: #fff;
+}
+.detials-top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.detials-top h2 {
+    text-transform: capitalize;
+    text-align: center;
+}
+.detials-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+button {
+    background-color: #E0CCBE;
+    border-radius: 10px;
+    padding: 5px;
+    border:5px solid #E0CCBE;
+}
+.detailsProduct {
+    background-color: #3C3633;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+.moreDetials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.detailsProduct img {
+    width: 50%;
+    margin: auto;
+    height: 60%;
+}
+.detailsProduct h2 {
+     padding-top: 10px;
+     text-align: center;
+}
+.row {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+margin: auto;
+}
+.col {
+    width: calc((100% - 40px) / 2);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.detailsProduct button {
+    width: 50%;
+    margin: auto;
+}
